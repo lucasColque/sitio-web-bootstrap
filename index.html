@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./assets/images/icono_head.webp" type="image/x-icon">
+    <title>Portafolio</title>
+</head>
+<body class="bg-dark-subtle">
+<!--?-----------------------------------NAVBAR------------------------------------------------------>
+<nav class="navbar navbar-expand-sm bg-dark bg-gradient sticky-top">
+    <div class="container-fluid ms-sm-4 ">
+        <a class="navbar-brand text-light" href="#inicio"><img class="me-1 " src="./assets/images/icono-one-piece.png" alt="icono de one piece" width="30" height="24">Portafolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contenidoAColapsar" aria-controls="contenidoAColapsar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end flex-grow-0 me-4" id="contenidoAColapsar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item me-4">
+                    <a class="nav-link active text-light" aria-current="page" href="#conocimientos">Conocimientos</a>
+                </li>
+                <li class="nav-item me-4">
+                    <a class="nav-link text-light" href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item dropdown me-4">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Desplegable
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#contacto">Contacto</a></li>
+                    </ul>
+                </li>
+            </ul>
+        
+        </div>
+    </div>
+</nav>
+<!--?-----------------------------------NAVBAR------------------------------------------------------>
+<!--*------------------------------------MAIN------------------------------------------------------->
+    <main class="container" id="inicio">
+        <div class="row mt-4" >
+            <img class="col-md-4 col-sm-12 rounded-circle " src="./assets/images/senku-perfil.jpg" alt="senku">
+            <div class="col-8 mx-auto d-flex flex-column justify-content-center " style="width: 300px;"">
+                <h1 class=>Lucas Colque</strong></h1>
+                <h2 class="fs-1">Desarrollador Web Full Stack</h2>
+            </div>
+        </div >
+    </main>
+<!--*------------------------------------MAIN------------------------------------------------------->
+<!--?-----------------------------------SECTION-CONOCIMIENTOS------------------------------------------------------>
+<!--!RESPONSIVE DESIGN EN LAS COLUMNAS MODO CELULAR-->
+    <section class="container">
+        <h2 class="text-center mb-5 mt-5" id="conocimientos">Conocimientos</h2>
+        <div class="row d-flex justify-content-around">
+            <div class="card col-7 col-sm-5 col-md-3  col-xxl-2 mb-5 shadow-lg p-3 mb-5 bg-body rounded" >
+                <i class="fab fa-html5 text-center pt-2"></i>
+                <div class="card-body">
+                    <h3 class="text-center">HTML5</h3>
+                    <p class="card-text text-center">Estructura y contenido web.</p>
+                </div>
+            </div>
+            <div class="card col-7 col-sm-5 col-md-3  col-xxl-2 mb-5 shadow-lg p-3 mb-5 bg-body rounded" >
+                <i class="fab fa-css3-alt text-center pt-2"></i>
+                <div class="card-body">
+                    <h3 class="text-center">CSS3</h3>
+                    <p class="card-text text-center">Estilo y presentación web.</p>
+                </div>
+            </div>
+            <div class="card col-7 col-sm-5 col-md-3  col-xxl-2 mb-5 shadow-lg p-3 mb-5 bg-body rounded" >
+                <i class="fab fa-js text-center pt-2"></i>
+                <div class="card-body">
+                    <h3 class="text-center">JavaScript</h3>
+                    <p class="card-text text-center">Interactividad y funcionalidad web.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-around">
+            <div class="card col-7 col-sm-5 col-md-3  col-xxl-2 mb-5 shadow-lg p-3 mb-5 bg-body rounded" >
+                <i class="fab fa-bootstrap text-center pt-2"></i>
+                <div class="card-body">
+                    <h3 class="text-center">Bootstrap</h3>
+                    <p class="card-text text-center">Diseño adaptable y componentes predefinidos.</p>
+                </div>
+            </div>
+            <div class="card col-7 col-sm-5 col-md-3  col-xxl-2 mb-5 shadow-lg p-3 mb-5 bg-body rounded" >
+                <i class="fab fa-php text-center pt-2 php-icon"></i>
+                <div class="card-body">
+                    <h3 class="text-center">PHP</h3>
+                    <p class="card-text text-center">Lenguaje de programación web dinámico.</p>
+                </div>
+            </div>
+            <div class="card col-7 col-sm-5 col-md-3  col-xxl-2 mb-5 shadow-lg p-3 mb-5 bg-body rounded" >
+                <i class="fas fa-database text-center pt-2"></i>
+                <div class="card-body">
+                    <h3 class="text-center">MySQL</h3>
+                    <p class="card-text text-center">Sistema de gestión de bases de datos relacionales.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="card col-7 col-sm-5 col-md-3  col-xxl-2 mb-5 shadow-lg p-3 mb-5 bg-body rounded" >
+                <i class="fab fa-wordpress text-center pt-2"></i>
+                <div class="card-body">
+                    <h3 class="text-center">Wordpress</h3>
+                    <p class="card-text text-center">Plataforma de gestión de contenido para sitios web.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--?-----------------------------------SECTION-CONOCIMIENTOS------------------------------------------------------>
+<!--*------------------------------------PROYECTOS------------------------------------------------------->
+    <section class="container-fluid">
+        <div class="row">
+            <h2 class="text-center mb-5 " id="proyectos"> Proyectos</h2>
+            <div id="carrousel_1" class="carousel slide  col-auto col-md-9 m-auto" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carrousel_1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carrousel_1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carrousel_1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="./assets/images/captura-primer-proyecto.png" class="d-block w-100" alt="primer proyecto">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Primer proyecto</h3>
+                            <p>Sitio web estatico realizado con html5 y css3 en la diplomatura de Front End.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="./assets/images/captura-segundo-proyecto.png" class="d-block w-100" alt="segundo proyecto">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Segundo proyecto</h3>
+                            <p>Sitio web dinamico realizado con php y mysql en la diplomatura de Back End.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="./assets/images/captura-tercer-proyecto.png" class="d-block w-100" alt="tercer proyecto">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Tercer proyecto</h3>
+                            <p>Sitio web realizado con Wordpress en la diplomatura de Back End.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrousel_1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carrousel_1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>    
+    </section>
+
+<!--*------------------------------------PROYECTOS------------------------------------------------------->
+<!--?-----------------------------------FORMULARIO-CONTACTO------------------------------------------------------>
+    <section class="container mt-5 scroll-margin-top" id="contacto">
+        <div class="row">
+            <div class="col-12 col-md-8 d-flex flex-column d-flex justify-content-center ">
+                <h2 class="text-center">Formulario de contacto</h2>
+                <p class="text-center">¿Está buscando crear su propia página web? Déjeme sus datos de contacto y estaré encantado de comunicarme con usted para discutir y llevar a cabo su proyecto.</p>
+            </div>
+            <form action="" class="col-12 col-md-4 needs-validation">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Lucas" required>
+                </div>
+                <div class="mb-3">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Colque" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electronico</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="example@correo.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="textArea1" class="form-label">Dejanos tu idea!</label>
+                    <textarea class="form-control" id="textArea1" rows="3" name="mensaje"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Si ya cuenta con un diseño para su sitio web, puede cargarlo aquí:</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="mb-3 text-center">
+                    <button type="submit" class="btn bg-dark bg-gradient text-light ps-4 pe-4">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+<!--?-----------------------------------FORMULARIO-CONTACTO------------------------------------------------------>
+<!--*------------------------------------FOOTER------------------------------------------------------->
+    <footer class="d-flex flex-wrap  align-items-center py-3 my-2 border-top justify-content-around">
+        <p class="col-md-4 mb-0 text-muted text-center">© 2022 Company, Inc</p>
+        
+
+        <ul class="nav col-md-4 justify-content-start ">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+    </footer>
+<!--*------------------------------------FOOTER------------------------------------------------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>
