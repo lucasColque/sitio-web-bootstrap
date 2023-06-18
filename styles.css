@@ -17,3 +17,6 @@ h2{
 .scroll-margin-top{
     scroll-margin-top: 60px;
 }
+.bg-color-form{
+    background-color: rgba(186, 192, 198, 0.5);
+}
